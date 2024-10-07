@@ -2,13 +2,13 @@
 version: "3.8"
 services:
   youtube:
-    image: abishnu08/youtube:latest
+    image: abhijit7683/youtube:latest
     ports:
       - 1111:80
     deploy:
       replicas: 3
   pantaloon:
-    image: abishnu08/pantaloon:latest
+    image: abhijit7683/pantaloon:latest
     ports:
       - 2222:80
     deploy:
